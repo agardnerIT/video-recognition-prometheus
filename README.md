@@ -34,4 +34,4 @@ python webcamdetect.py --camera-index=0
 
 ## Prometheus Metrics
 Prometheus Metrics are available at `http://localhost:8000/`
-The port is configurable via the `--
+The port is configurable via the `--prometheus-port` parameter.
