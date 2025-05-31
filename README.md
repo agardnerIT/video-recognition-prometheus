@@ -30,8 +30,8 @@ python webcamdetect.py \
 ## Parameters
 
 * `--camera-index` (see above)
-* `--sleep-time-between-updates` - Time in seconds. How often should the screen refresh and objects be identified? Defaults to `0.5`
-* `--minimum-confidence-required` - How confident does the detection need to be to be displayed and tracked?
+* `--sleep-time-between-updates` - (optional) Time in seconds. How often should the screen refresh and objects be identified? Defaults to `0.5`
+* `--minimum-confidence-required` - (optional) How confident does the detection need to be to be displayed and tracked? Defaults to `0.7` (70% certainty)
 * `--model` - (optional) Which model should we use to detect? Defaults to `yolov8n`
 * `--hide-live-feed` (optional) Hides the live video feed window
 * `--prometheus-port` (optional) Set the port for Prometheus metrics. Defaults to `8000`
