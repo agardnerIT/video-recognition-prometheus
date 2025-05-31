@@ -1,4 +1,8 @@
 # video-recognition-prometheus
+
+<img width="638" alt="screenshot" src="https://github.com/user-attachments/assets/b2f7a062-34dd-4b9d-8fe6-a1fe3e16165f" />
+
+
 Live Webcam Video Recognition of People with Prometheus Metrics.
 
 This program uses your webcam to detect and display bounding boxes around humans. The application produces Prometheus metrics tracking the active number of detected people.
