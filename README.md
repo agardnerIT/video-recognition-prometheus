@@ -20,8 +20,11 @@ You will need a webcam available. You will need to adjust the `--camera-index` t
 ```
 python -m venv .
 pip install -r requirements.txt
-python webcamdetect.py --camera-index=0 --sleep-time-between-updates=0.1 --minimum-confidence-required=0.4 --model=yolov8n --h
-ide-live-feed
+python webcamdetect.py \
+  --camera-index=0 \
+  --sleep-time-between-updates=0.1 \
+  --minimum-confidence-required=0.4 \
+  --model=yolov8n
 ```
 
 ## Parameters
@@ -31,6 +34,7 @@ ide-live-feed
 * `--minimum-confidence-required` - How confident does the detection need to be to be displayed and tracked?
 * `--model` - (optional) Which model should we use to detect? Defaults to `yolov8n`
 * `--hide-live-feed` (optional) Hides the live video feed window
+* `--prometheus-port` (optional) Set the port for Prometheus metrics. Defaults to `8000`
 
 ## Prometheus Metrics
 Prometheus Metrics are available at `http://localhost:8000/`
